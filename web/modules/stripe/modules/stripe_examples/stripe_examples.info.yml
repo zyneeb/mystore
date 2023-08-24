@@ -1,0 +1,12 @@
+name: Stripe examples
+type: module
+description: Stripe examples
+core_version_requirement: ^9 || ^10
+package: Stripe
+dependencies:
+  - stripe
+
+# Information added by Drupal.org packaging script on 2023-03-07
+version: '2.0.0-beta4'
+project: 'stripe'
+datestamp: 1678224488

@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function stripe_examples_theme($existing, $type, $theme, $path) {
+  return [
+    'stripe-examples-simple-checkout' => [
+      'render element' => 'form',
+    ],
+  ];
+}

@@ -1,0 +1,5 @@
+services:
+  stripe_examples_event_subscriber:
+    class: '\Drupal\stripe_examples\EventSubscriber\StripeExamplesEventSubscriber'
+    tags:
+      - { name: 'event_subscriber' }
